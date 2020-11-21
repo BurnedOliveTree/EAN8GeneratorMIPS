@@ -33,9 +33,9 @@
 		.word 0
 		.word 0
 	img:	.space	bytesno
-	ifname:	.asciiz "EAN8 - MIPS/templates/512x512.bmp"
+	ifname:	.asciiz "EAN8/templates/512x512.bmp"
 	img2:	.space	bytesno
-	ofname:	.asciiz "EAN8 - MIPS/EAN8.bmp"
+	ofname:	.asciiz "EAN8/EAN8.bmp"
 
 .text
 	main:
